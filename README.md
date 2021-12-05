@@ -17,13 +17,14 @@ The Number of Employees Retiring by Title:
 The Employees Eligible for the Mentorship Program:
 
 
-![Title_Count_Current](https://user-images.githubusercontent.com/92831268/144765546-b0cc559e-5298-4a82-b916-61d7524e9999.png)
+![Mentorship_eligibility](https://user-images.githubusercontent.com/92831268/144765782-f0da4d93-afb3-4789-9839-1e0d8bdba37b.png)
+
 
 Take Aways: 
 - There are 90,398 employees getting ready to retire. That is 30.13% of the entire Pewlett Hackward staff. 
 - 19.22% of those employees are senior positions. 
 - There are only 629 employees born in 1965 that are holding Senior positions. 
-- There are enough employees eligible for the mentorship program, but looking at this specific year, not enough to fill all of the reting positions. 
+- There are enough employees eligible for the mentorship program, but looking at this specific year, not enough to fill all of the retiring positions. 
 
 ## Summary 
 An additional query we can do is to count the number of current employees eligible for the mentorship program and compare it to the number of retiring titles chart. 
