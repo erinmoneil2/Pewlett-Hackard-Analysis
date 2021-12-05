@@ -1,7 +1,7 @@
 # Pewlett-Hackard-Analysis
 ## Overview
 ### Purpose
-
+The purpose of this analysis is to help Hewlett Packard determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. This will help the team to determine a way forward and prepare for a large number of HP employees to retire. 
 
 ## Results
 The Number of Employees Retiring by Title: 
@@ -11,12 +11,20 @@ The Employees Eligible for the Mentorship Program:
 
 ## Summary 
 An additional query we can do is to count the number of current employees eligible for the mentorship program and compare it to the number of retiring titles chart. 
-Retiring Titles: 
+
+Number of Employees Retiring by Title: 
 
 ![Retiring_Titles](https://user-images.githubusercontent.com/92831268/144764508-58c254b5-2b1e-4a60-8432-4e86324cfe14.png)
 
 
 Titles currently eligible for the mentorship program. 
+
+
+SELECT COUNT(me.title) as count, me.title
+FROM mentorship_eligibility as me
+GROUP BY me.title
+Order by count DESC;
+
 
 ![Title_Count_Current](https://user-images.githubusercontent.com/92831268/144764527-04de45b8-2183-4cb1-8392-ba8467f3c1b3.png)
 
