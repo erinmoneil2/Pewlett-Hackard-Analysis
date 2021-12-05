@@ -1,7 +1,7 @@
 # Pewlett-Hackard-Analysis
 ## Overview
 ### Purpose
-The purpose of this analysis is to help Hewlett Packard determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. This will help the team to determine a way forward and prepare for a large number of HP employees to retire. 
+The purpose of this analysis is to help Pewlett Hackard determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. This will help the team to determine a way forward and prepare for a large number of HP employees to retire. 
 
 ## Results
 In order to conduct the queries on all of our tables, we needed to create tables in an ERD (Entity Relationship Diagram) to visualize the relationship between the six original data sources and to help facilitate the analysis. 
