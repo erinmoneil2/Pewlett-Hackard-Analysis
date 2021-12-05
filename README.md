@@ -20,9 +20,9 @@ Number of Employees Retiring by Title:
 Titles currently eligible for the mentorship program. 
 
 
-SELECT COUNT(me.title) as count, me.title
-FROM mentorship_eligibility as me
-GROUP BY me.title
+SELECT COUNT(me.title) as count, me.title/n
+FROM mentorship_eligibility as me/n
+GROUP BY me.title/n
 Order by count DESC;
 
 
